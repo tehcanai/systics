@@ -1,9 +1,3 @@
-//
-//  systicsApp.swift
-//  systics
-//
-//  Created by Zakuan on 09/05/2025.
-//
 
 import SwiftUI
 
@@ -11,7 +5,7 @@ import SwiftUI
 struct systicsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView().navigationTitle("Hello")
         }
     }
 }
